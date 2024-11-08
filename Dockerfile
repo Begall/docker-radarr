@@ -18,6 +18,7 @@ ENV XDG_CONFIG_HOME="/config/xdg" \
 RUN \
   echo "**** install packages ****" && \
   apk add -U --upgrade --no-cache \
+    docker \
     icu-libs \
     sqlite-libs \
     xmlstarlet && \
