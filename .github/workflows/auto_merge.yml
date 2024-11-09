@@ -15,6 +15,6 @@ jobs:
       - name: Merge Upstream
         uses: exions/merge-upstream@v1.1.0
         with:
-          upstream: linuxserver/docker-sonarr # set the upstream repo
+          upstream: linuxserver/docker-radarr # set the upstream repo
           upstream-branch: master   # set the upstream branch to merge from
           branch: master          # set the branch to merge to
